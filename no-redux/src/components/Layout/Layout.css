@@ -1,0 +1,19 @@
+.Layout {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Layout .spacer {
+  flex: 0 0 100px;
+}
+
+.Layout > div {
+  flex: 1 1 300px;
+}
+
+.LayoutBottom {
+  text-align: center;
+  margin-top: 20px;
+}

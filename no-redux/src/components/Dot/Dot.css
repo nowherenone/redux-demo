@@ -1,0 +1,38 @@
+.Dot {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  color: white;
+}
+
+.Dot .innerValue {
+  text-align: center;
+  padding-top: 7px;
+  font-size: 13px;
+  font-family: monospace;
+  font-weight: 800;
+}
+
+.Dot > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #222;
+}
+
+.Dot.blue > div {
+  background: #55a;
+}
+
+.Dot.red > div {
+  background: #a55;
+}
+
+.Dot.yellow > div {
+  background: #aa5;
+}
+
+.Dot:hover > div {
+  background: #aaa;
+  cursor: pointer;
+}

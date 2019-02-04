@@ -1,0 +1,6 @@
+.Matrix {
+  max-width: 300px;
+  display: flex;
+  flex: 1 1;
+  flex-wrap: wrap;
+}
